@@ -1,19 +1,15 @@
-# 📱 Stack Navigator
+# Stack Navigator
 
 Um aplicativo React Native desenvolvido para demonstração dos conceitos de **Stack Navigator** em aula.
-
-## 🎯 Objetivo
-
-Este projeto foi criado para demonstrar de forma prática e visual os principais conceitos de navegação em React Native, incluindo:
 
 - Configuração do Stack Navigator
 - Diferentes métodos de navegação
 - Passagem de parâmetros entre telas
 - Headers personalizados
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-### 🧭 Métodos de Navegação Demonstrados
+### Métodos de Navegação Demonstrados
 
 | Método | Descrição | Uso no App |
 |--------|-----------|------------|
@@ -23,7 +19,7 @@ Este projeto foi criado para demonstrar de forma prática e visual os principais
 | `navigation.popToTop()` | Volta para a primeira tela | Home → Login |
 | `navigation.reset()` | Reseta toda a pilha de navegação | Logout → Login |
 
-## 🛠️ Tecnologias Utilizadas
+## Stack
 
 - **React Native** - Framework principal
 - **Expo** - Plataforma de desenvolvimento
@@ -31,7 +27,7 @@ Este projeto foi criado para demonstrar de forma prática e visual os principais
 - **React Navigation** - Navegação entre telas
 - **React Native Safe Area Context** - Gerenciamento de área segura
 
-## 📦 Dependências
+## Dependências
 
 ```json
 {
@@ -43,7 +39,7 @@ Este projeto foi criado para demonstrar de forma prática e visual os principais
 }
 ```
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 - Node.js (versão 18 ou superior)
@@ -93,7 +89,7 @@ stack-navigator-initial/
 └── README.md                     # Este arquivo
 ```
 
-## 🎓 Conceitos Demonstrados
+## Conceitos Demonstrados
 
 ### 1. **Configuração do Stack Navigator**
 ```typescript
@@ -151,7 +147,7 @@ navigation.reset({
 });
 ```
 
-## 🎨 Customização de Headers
+## Customização de Headers
 
 ```typescript
 <Stack.Screen 
@@ -164,7 +160,7 @@ navigation.reset({
 />
 ```
 
-## 🔧 Configurações Importantes
+## Configurações Importantes
 
 ### SafeAreaProvider
 ```typescript
@@ -184,10 +180,6 @@ navigation.reset({
 >
 ```
 
-## 📄 Licença
+## Licença
 
 Este projeto é de uso educacional.
-
----
-
-**Desenvolvido para demonstração em aula de React Native** 🚀
